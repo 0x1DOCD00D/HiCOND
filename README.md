@@ -1,4 +1,4 @@
-Welcome to HDTest homepage!
+Welcome to HiCOND homepage!
 
 There are three folders in the root folder, including tool, find_correct_commit, and configfile. We introduce each folder in detail as follows.
 
@@ -6,7 +6,7 @@ There are three folders in the root folder, including tool, find_correct_commit,
 
 	1) csmith_recorder, which includes our adapted Csmith that can record all the decisions for all program features. Here the file install.sh is the installation script of the Csmith
 
-	2) source, which includes the source code of our tool HDTest. There are two files:
+	2) source, which includes the source code of our tool HiCOND. There are two files:
 	
 		>> pso_autoconfig.py, includes the three steps in our approach: range inferring, diversity measuring, and pso-based searching. 
 
@@ -28,7 +28,7 @@ There are three folders in the root folder, including tool, find_correct_commit,
 
 2. find_fixed_commit, which is used for finding the correcting commit for each bug-triggering test program, where the file gcc_duplicate_hunter.pl is used for GCC and the file llvm_duplicate_hunter.pl is used for LLVM
 
-3. configfile, which contains the found test configurations using our tool HDTest and each file in the folder is a test configuration for Csmith.
+3. configfile, which contains the found test configurations using our tool HiCOND and each file in the folder is a test configuration for Csmith.
 
 
 Thanks!
