@@ -12,6 +12,10 @@ There are three folders in the root folder, including tool, find_correct_commit,
 
 		>> genconfig.py, is used to generate the test configurations that meet the format of the Csmith configuration.
 
+        >> OriSwarm.py, is the original Swarm Testing way which it's called OriSwarm baseline in our paper.
+
+        >> VarSwarm.py, is the variant Swarm Testing way which it's called VarSwarm baseline in our paper.
+
 	3) data, which includes the data that is used in the searching process in our study. There are six files:
 
 		>> prob.txt, is the default test configuration of Csmith
